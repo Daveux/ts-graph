@@ -1,0 +1,46 @@
+{
+  "name": "ts-graph",
+  "version": "1.0.0",
+  "description": "Playing around with Typescript and GraphQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "node dist/app.js",
+    "watch-node": "nodemon dist/app.js",
+    "build-tsc": "tsc",
+    "watch-tsc": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daveux/ts-graph.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "David Odeyinka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daveux/ts-graph/issues"
+  },
+  "homepage": "https://github.com/Daveux/ts-graph#readme",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.2.0",
+    "apollo-server-express": "^2.15.0",
+    "class-validator": "^0.12.2",
+    "express": "^4.17.1",
+    "graphql": "^15.1.0",
+    "mongoose": "^5.9.20",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/express": "github:types/express",
+    "@types/graphql": "^14.5.0",
+    "@types/mongoose": "^5.7.27",
+    "@types/node": "^14.0.13",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
